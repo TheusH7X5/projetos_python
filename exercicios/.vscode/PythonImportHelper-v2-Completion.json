@@ -1,0 +1,570 @@
+[
+    {
+        "label": "trunc",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "hypot",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "radians",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "tan",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "shuffle",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "pygame",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pygame",
+        "description": "pygame",
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "ex001",
+        "description": "ex001",
+        "peekOfCode": "msg = 'Olá Mundo!'\nprint(msg)",
+        "detail": "ex001",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "ex002",
+        "description": "ex002",
+        "peekOfCode": "name = input('Digite seu nome: ')\nprint(f'É um prazer te conhecer, {name:20}!')\nprint(f'É um prazer te conhecer, {name:>20}!')\nprint(f'É um prazer te conhecer, {name:<20}!')\nprint(f'É um prazer te conhecer, {name:^20}!')\nprint(f'É um prazer te conhecer, {name:=^20}!')",
+        "detail": "ex002",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "ex003",
+        "description": "ex003",
+        "peekOfCode": "A = int(input('Digite um número: '))\nB = int(input('Digite outro número: '))\nSOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "ex003",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "ex003",
+        "description": "ex003",
+        "peekOfCode": "B = int(input('Digite outro número: '))\nSOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "ex003",
+        "documentation": {}
+    },
+    {
+        "label": "SOMA",
+        "kind": 5,
+        "importPath": "ex003",
+        "description": "ex003",
+        "peekOfCode": "SOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "ex003",
+        "documentation": {}
+    },
+    {
+        "label": "print(f'SOMA",
+        "kind": 5,
+        "importPath": "ex003",
+        "description": "ex003",
+        "peekOfCode": "print(f'SOMA = {SOMA}')",
+        "detail": "ex003",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "ex004",
+        "description": "ex004",
+        "peekOfCode": "a = input('Digite algo: ')\nprint(f'O tipo primitivo desse valor é {type(a)}')",
+        "detail": "ex004",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "ex005",
+        "description": "ex005",
+        "peekOfCode": "n = int(input('Digite um número: '))\nprint(f'Analisando o valor {n}, seu antecessor é {n-1} e o sucessor é {n+1}.')",
+        "detail": "ex005",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "ex006",
+        "description": "ex006",
+        "peekOfCode": "n = int(input('Digite um número: '))\nprint(\n    f'o dobro {n*2}, o triplo {n*3}, raiz quadrada {n**(1/2):.2f}, raiz quadrada {n**0.5:.2f}')",
+        "detail": "ex006",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "ex007",
+        "description": "ex007",
+        "peekOfCode": "n1 = float(input('Primeira nota do aluno: '))\nn2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nprint(\n    f'A média de nota é {(n1 + n2 + n3) / 3}')",
+        "detail": "ex007",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "ex007",
+        "description": "ex007",
+        "peekOfCode": "n2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nprint(\n    f'A média de nota é {(n1 + n2 + n3) / 3}')",
+        "detail": "ex007",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "ex007",
+        "description": "ex007",
+        "peekOfCode": "n3 = float(input('Terceira nota do aluno: '))\nprint(\n    f'A média de nota é {(n1 + n2 + n3) / 3}')",
+        "detail": "ex007",
+        "documentation": {}
+    },
+    {
+        "label": "medida",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "medida = float(input('Digite a medida: '))\nkm = medida * 0.001\nhm = medida * 0.01\ndam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "km",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "km = medida * 0.001\nhm = medida * 0.01\ndam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "hm",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "hm = medida * 0.01\ndam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "dam",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "dam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "dm",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "dm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "cm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "mm",
+        "kind": 5,
+        "importPath": "ex008",
+        "description": "ex008",
+        "peekOfCode": "mm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "ex008",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "ex009",
+        "description": "ex009",
+        "peekOfCode": "num = int(input('Digite um número para ver sua tabuada: '))\nprint(f'{num} x{1:2} = {num*1}')\nprint(f'{num} x{2:2} = {num*2}')\nprint(f'{num} x{3:2} = {num*3}')",
+        "detail": "ex009",
+        "documentation": {}
+    },
+    {
+        "label": "dinheiro",
+        "kind": 5,
+        "importPath": "ex010",
+        "description": "ex010",
+        "peekOfCode": "dinheiro = float(input('Quando dinheiro você tem na carteira? R$'))\ndolar = float(4.99)\ninput(f'Com R${dinheiro:.2f} você pode comprar US${dinheiro/dolar:.2f}')",
+        "detail": "ex010",
+        "documentation": {}
+    },
+    {
+        "label": "dolar",
+        "kind": 5,
+        "importPath": "ex010",
+        "description": "ex010",
+        "peekOfCode": "dolar = float(4.99)\ninput(f'Com R${dinheiro:.2f} você pode comprar US${dinheiro/dolar:.2f}')",
+        "detail": "ex010",
+        "documentation": {}
+    },
+    {
+        "label": "larg",
+        "kind": 5,
+        "importPath": "ex011",
+        "description": "ex011",
+        "peekOfCode": "larg = float(input('Largura da parede: '))\nalt = float(input('Altura da parede: '))\nárea = larg * alt\nprint(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {área}m²')\ntinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "ex011",
+        "documentation": {}
+    },
+    {
+        "label": "alt",
+        "kind": 5,
+        "importPath": "ex011",
+        "description": "ex011",
+        "peekOfCode": "alt = float(input('Altura da parede: '))\nárea = larg * alt\nprint(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {área}m²')\ntinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "ex011",
+        "documentation": {}
+    },
+    {
+        "label": "área",
+        "kind": 5,
+        "importPath": "ex011",
+        "description": "ex011",
+        "peekOfCode": "área = larg * alt\nprint(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {área}m²')\ntinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "ex011",
+        "documentation": {}
+    },
+    {
+        "label": "tinta",
+        "kind": 5,
+        "importPath": "ex011",
+        "description": "ex011",
+        "peekOfCode": "tinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "ex011",
+        "documentation": {}
+    },
+    {
+        "label": "preço",
+        "kind": 5,
+        "importPath": "ex012",
+        "description": "ex012",
+        "peekOfCode": "preço = float(input('Qual é o preço do produto? R$'))\npreço_desconto = preço - (preço * 5 / 100)\nprint(f'O produto que custava R${preço}, na promoção de 5% de desconto vai custar R${preço_desconto}')",
+        "detail": "ex012",
+        "documentation": {}
+    },
+    {
+        "label": "preço_desconto",
+        "kind": 5,
+        "importPath": "ex012",
+        "description": "ex012",
+        "peekOfCode": "preço_desconto = preço - (preço * 5 / 100)\nprint(f'O produto que custava R${preço}, na promoção de 5% de desconto vai custar R${preço_desconto}')",
+        "detail": "ex012",
+        "documentation": {}
+    },
+    {
+        "label": "salário",
+        "kind": 5,
+        "importPath": "ex013",
+        "description": "ex013",
+        "peekOfCode": "salário = float(input('Qual o salário do Funcionário? R$'))\naumento = salário + (salário * 15 / 100)\nprint(f'Um funcionário que ganhava R${salário:.2f}, com 15% de aumento, passa a receber R${aumento:.2f}')",
+        "detail": "ex013",
+        "documentation": {}
+    },
+    {
+        "label": "aumento",
+        "kind": 5,
+        "importPath": "ex013",
+        "description": "ex013",
+        "peekOfCode": "aumento = salário + (salário * 15 / 100)\nprint(f'Um funcionário que ganhava R${salário:.2f}, com 15% de aumento, passa a receber R${aumento:.2f}')",
+        "detail": "ex013",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "ex014",
+        "description": "ex014",
+        "peekOfCode": "c = float(input('Informe a temperatura em C: '))\nf = 9 * c / 5 + 32\nprint(f'A temperatura de {c}°C corresponde a {f}°F!.')",
+        "detail": "ex014",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "ex014",
+        "description": "ex014",
+        "peekOfCode": "f = 9 * c / 5 + 32\nprint(f'A temperatura de {c}°C corresponde a {f}°F!.')",
+        "detail": "ex014",
+        "documentation": {}
+    },
+    {
+        "label": "dias",
+        "kind": 5,
+        "importPath": "ex015",
+        "description": "ex015",
+        "peekOfCode": "dias = int(input('Quantos dias alugados? '))\nkm = int(input('Quantos km rodados? '))\npago = (dias * 60) + (km * 0.15)\nprint(f'Total a pagar é R${pago:.2f}')",
+        "detail": "ex015",
+        "documentation": {}
+    },
+    {
+        "label": "km",
+        "kind": 5,
+        "importPath": "ex015",
+        "description": "ex015",
+        "peekOfCode": "km = int(input('Quantos km rodados? '))\npago = (dias * 60) + (km * 0.15)\nprint(f'Total a pagar é R${pago:.2f}')",
+        "detail": "ex015",
+        "documentation": {}
+    },
+    {
+        "label": "pago",
+        "kind": 5,
+        "importPath": "ex015",
+        "description": "ex015",
+        "peekOfCode": "pago = (dias * 60) + (km * 0.15)\nprint(f'Total a pagar é R${pago:.2f}')",
+        "detail": "ex015",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "ex016",
+        "description": "ex016",
+        "peekOfCode": "num = float(input('Digite um valor: '))\nprint(\n    f'O valor digitado foi {num} e a sua porção inteira é {trunc(num)}')",
+        "detail": "ex016",
+        "documentation": {}
+    },
+    {
+        "label": "co",
+        "kind": 5,
+        "importPath": "ex017",
+        "description": "ex017",
+        "peekOfCode": "co = float(input('Comporimento de cateto oposto: '))\nca = float(input('Comporimento de cateto adjacente: '))\nhi = (co ** 2 + ca ** 2) ** 0.5\nhi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "ex017",
+        "documentation": {}
+    },
+    {
+        "label": "ca",
+        "kind": 5,
+        "importPath": "ex017",
+        "description": "ex017",
+        "peekOfCode": "ca = float(input('Comporimento de cateto adjacente: '))\nhi = (co ** 2 + ca ** 2) ** 0.5\nhi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "ex017",
+        "documentation": {}
+    },
+    {
+        "label": "hi",
+        "kind": 5,
+        "importPath": "ex017",
+        "description": "ex017",
+        "peekOfCode": "hi = (co ** 2 + ca ** 2) ** 0.5\nhi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "ex017",
+        "documentation": {}
+    },
+    {
+        "label": "hi_import",
+        "kind": 5,
+        "importPath": "ex017",
+        "description": "ex017",
+        "peekOfCode": "hi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "ex017",
+        "documentation": {}
+    },
+    {
+        "label": "ângulo",
+        "kind": 5,
+        "importPath": "ex018",
+        "description": "ex018",
+        "peekOfCode": "ângulo = float(input('Digite o angulo que você deseja: '))\nseno = sin(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o seno de {seno:.2f}')\ncosseno = cos(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o cosseno de {cosseno:.2f}')\ntangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "ex018",
+        "documentation": {}
+    },
+    {
+        "label": "seno",
+        "kind": 5,
+        "importPath": "ex018",
+        "description": "ex018",
+        "peekOfCode": "seno = sin(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o seno de {seno:.2f}')\ncosseno = cos(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o cosseno de {cosseno:.2f}')\ntangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "ex018",
+        "documentation": {}
+    },
+    {
+        "label": "cosseno",
+        "kind": 5,
+        "importPath": "ex018",
+        "description": "ex018",
+        "peekOfCode": "cosseno = cos(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o cosseno de {cosseno:.2f}')\ntangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "ex018",
+        "documentation": {}
+    },
+    {
+        "label": "tangente",
+        "kind": 5,
+        "importPath": "ex018",
+        "description": "ex018",
+        "peekOfCode": "tangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "ex018",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "ex019",
+        "description": "ex019",
+        "peekOfCode": "n1 = str(input('Primeiro aluno: '))\nn2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "ex019",
+        "description": "ex019",
+        "peekOfCode": "n2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "ex019",
+        "description": "ex019",
+        "peekOfCode": "n3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "ex019",
+        "description": "ex019",
+        "peekOfCode": "n4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "ex019",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "ex019",
+        "description": "ex019",
+        "peekOfCode": "lista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "ex019",
+        "documentation": {}
+    },
+    {
+        "label": "escolhido",
+        "kind": 5,
+        "importPath": "ex019",
+        "description": "ex019",
+        "peekOfCode": "escolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "ex020",
+        "description": "ex020",
+        "peekOfCode": "n1 = str(input('Primeiro aluno: '))\nn2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "ex020",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "ex020",
+        "description": "ex020",
+        "peekOfCode": "n2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "ex020",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "ex020",
+        "description": "ex020",
+        "peekOfCode": "n3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "ex020",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "ex020",
+        "description": "ex020",
+        "peekOfCode": "n4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "ex020",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "ex020",
+        "description": "ex020",
+        "peekOfCode": "lista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "ex020",
+        "documentation": {}
+    }
+]

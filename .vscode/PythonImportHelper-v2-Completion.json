@@ -1,0 +1,1195 @@
+[
+    {
+        "label": "math",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "math",
+        "description": "math",
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "trunc",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "hypot",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "sin",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "radians",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "cos",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "tan",
+        "importPath": "math",
+        "description": "math",
+        "isExtraImport": true,
+        "detail": "math",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "choice",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "shuffle",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "randint",
+        "importPath": "random",
+        "description": "random",
+        "isExtraImport": true,
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "mixer",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "event",
+        "importPath": "pygame",
+        "description": "pygame",
+        "isExtraImport": true,
+        "detail": "pygame",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "date",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "emoji",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "emoji",
+        "description": "emoji",
+        "detail": "emoji",
+        "documentation": {}
+    },
+    {
+        "label": "msg",
+        "kind": 5,
+        "importPath": "exercicios.ex001",
+        "description": "exercicios.ex001",
+        "peekOfCode": "msg = 'Olá Mundo!'\nprint(msg)",
+        "detail": "exercicios.ex001",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "exercicios.ex002",
+        "description": "exercicios.ex002",
+        "peekOfCode": "name = input('Digite seu nome: ')\nprint(f'É um prazer te conhecer, {name:20}!')\nprint(f'É um prazer te conhecer, {name:>20}!')\nprint(f'É um prazer te conhecer, {name:<20}!')\nprint(f'É um prazer te conhecer, {name:^20}!')\nprint(f'É um prazer te conhecer, {name:=^20}!')",
+        "detail": "exercicios.ex002",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "exercicios.ex003",
+        "description": "exercicios.ex003",
+        "peekOfCode": "A = int(input('Digite um número: '))\nB = int(input('Digite outro número: '))\nSOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "exercicios.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "exercicios.ex003",
+        "description": "exercicios.ex003",
+        "peekOfCode": "B = int(input('Digite outro número: '))\nSOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "exercicios.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "SOMA",
+        "kind": 5,
+        "importPath": "exercicios.ex003",
+        "description": "exercicios.ex003",
+        "peekOfCode": "SOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "exercicios.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "print(f'SOMA",
+        "kind": 5,
+        "importPath": "exercicios.ex003",
+        "description": "exercicios.ex003",
+        "peekOfCode": "print(f'SOMA = {SOMA}')",
+        "detail": "exercicios.ex003",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exercicios.ex004",
+        "description": "exercicios.ex004",
+        "peekOfCode": "a = input('Digite algo: ')\nprint(f'O tipo primitivo desse valor é {type(a)}')",
+        "detail": "exercicios.ex004",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercicios.ex005",
+        "description": "exercicios.ex005",
+        "peekOfCode": "n = int(input('Digite um número: '))\nprint(f'Analisando o valor {n}, seu antecessor é {n-1} e o sucessor é {n+1}.')",
+        "detail": "exercicios.ex005",
+        "documentation": {}
+    },
+    {
+        "label": "n",
+        "kind": 5,
+        "importPath": "exercicios.ex006",
+        "description": "exercicios.ex006",
+        "peekOfCode": "n = int(input('Digite um número: '))\nprint(\n    f'o dobro {n*2}, o triplo {n*3}, raiz quadrada {n**(1/2):.2f}, raiz quadrada {n**0.5:.2f}')",
+        "detail": "exercicios.ex006",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios.ex007",
+        "description": "exercicios.ex007",
+        "peekOfCode": "n1 = float(input('Primeira nota do aluno: '))\nn2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nprint(\n    f'A média de nota é {(n1 + n2 + n3) / 3}')",
+        "detail": "exercicios.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios.ex007",
+        "description": "exercicios.ex007",
+        "peekOfCode": "n2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nprint(\n    f'A média de nota é {(n1 + n2 + n3) / 3}')",
+        "detail": "exercicios.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "exercicios.ex007",
+        "description": "exercicios.ex007",
+        "peekOfCode": "n3 = float(input('Terceira nota do aluno: '))\nprint(\n    f'A média de nota é {(n1 + n2 + n3) / 3}')",
+        "detail": "exercicios.ex007",
+        "documentation": {}
+    },
+    {
+        "label": "medida",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "medida = float(input('Digite a medida: '))\nkm = medida * 0.001\nhm = medida * 0.01\ndam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "km",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "km = medida * 0.001\nhm = medida * 0.01\ndam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "hm",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "hm = medida * 0.01\ndam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "dam",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "dam = medida * 0.1\ndm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "dm",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "dm = medida * 10\ncm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "cm",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "cm = medida * 100\nmm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "mm",
+        "kind": 5,
+        "importPath": "exercicios.ex008",
+        "description": "exercicios.ex008",
+        "peekOfCode": "mm = medida * 1000\nprint(\n    f'A media de {medida}m corresponde a {km}km, {hm}hm, {dam}dam, {dm:.1f}dm, {cm:.1f}cm, {mm:.1f}mm e ')",
+        "detail": "exercicios.ex008",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios.ex009",
+        "description": "exercicios.ex009",
+        "peekOfCode": "num = int(input('Digite um número para ver sua tabuada: '))\nprint(f'{num} x{1:2} = {num*1}')\nprint(f'{num} x{2:2} = {num*2}')\nprint(f'{num} x{3:2} = {num*3}')",
+        "detail": "exercicios.ex009",
+        "documentation": {}
+    },
+    {
+        "label": "dinheiro",
+        "kind": 5,
+        "importPath": "exercicios.ex010",
+        "description": "exercicios.ex010",
+        "peekOfCode": "dinheiro = float(input('Quando dinheiro você tem na carteira? R$'))\ndolar = float(4.99)\ninput(f'Com R${dinheiro:.2f} você pode comprar US${dinheiro/dolar:.2f}')",
+        "detail": "exercicios.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "dolar",
+        "kind": 5,
+        "importPath": "exercicios.ex010",
+        "description": "exercicios.ex010",
+        "peekOfCode": "dolar = float(4.99)\ninput(f'Com R${dinheiro:.2f} você pode comprar US${dinheiro/dolar:.2f}')",
+        "detail": "exercicios.ex010",
+        "documentation": {}
+    },
+    {
+        "label": "larg",
+        "kind": 5,
+        "importPath": "exercicios.ex011",
+        "description": "exercicios.ex011",
+        "peekOfCode": "larg = float(input('Largura da parede: '))\nalt = float(input('Altura da parede: '))\nárea = larg * alt\nprint(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {área}m²')\ntinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "exercicios.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "alt",
+        "kind": 5,
+        "importPath": "exercicios.ex011",
+        "description": "exercicios.ex011",
+        "peekOfCode": "alt = float(input('Altura da parede: '))\nárea = larg * alt\nprint(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {área}m²')\ntinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "exercicios.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "área",
+        "kind": 5,
+        "importPath": "exercicios.ex011",
+        "description": "exercicios.ex011",
+        "peekOfCode": "área = larg * alt\nprint(f'Sua parede tem a dimensão de {larg}x{alt} e sua área é de {área}m²')\ntinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "exercicios.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "tinta",
+        "kind": 5,
+        "importPath": "exercicios.ex011",
+        "description": "exercicios.ex011",
+        "peekOfCode": "tinta = área / 2\nprint(f'Para pintar essa parede você vai precisar de {tinta} litros de tinta')",
+        "detail": "exercicios.ex011",
+        "documentation": {}
+    },
+    {
+        "label": "preço",
+        "kind": 5,
+        "importPath": "exercicios.ex012",
+        "description": "exercicios.ex012",
+        "peekOfCode": "preço = float(input('Qual é o preço do produto? R$'))\npreço_desconto = preço - (preço * 5 / 100)\nprint(f'O produto que custava R${preço}, na promoção de 5% de desconto vai custar R${preço_desconto}')",
+        "detail": "exercicios.ex012",
+        "documentation": {}
+    },
+    {
+        "label": "preço_desconto",
+        "kind": 5,
+        "importPath": "exercicios.ex012",
+        "description": "exercicios.ex012",
+        "peekOfCode": "preço_desconto = preço - (preço * 5 / 100)\nprint(f'O produto que custava R${preço}, na promoção de 5% de desconto vai custar R${preço_desconto}')",
+        "detail": "exercicios.ex012",
+        "documentation": {}
+    },
+    {
+        "label": "salário",
+        "kind": 5,
+        "importPath": "exercicios.ex013",
+        "description": "exercicios.ex013",
+        "peekOfCode": "salário = float(input('Qual o salário do Funcionário? R$'))\naumento = salário + (salário * 15 / 100)\nprint(f'Um funcionário que ganhava R${salário:.2f}, com 15% de aumento, passa a receber R${aumento:.2f}')",
+        "detail": "exercicios.ex013",
+        "documentation": {}
+    },
+    {
+        "label": "aumento",
+        "kind": 5,
+        "importPath": "exercicios.ex013",
+        "description": "exercicios.ex013",
+        "peekOfCode": "aumento = salário + (salário * 15 / 100)\nprint(f'Um funcionário que ganhava R${salário:.2f}, com 15% de aumento, passa a receber R${aumento:.2f}')",
+        "detail": "exercicios.ex013",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exercicios.ex014",
+        "description": "exercicios.ex014",
+        "peekOfCode": "c = float(input('Informe a temperatura em C: '))\nf = 9 * c / 5 + 32\nprint(f'A temperatura de {c}°C corresponde a {f}°F!.')",
+        "detail": "exercicios.ex014",
+        "documentation": {}
+    },
+    {
+        "label": "f",
+        "kind": 5,
+        "importPath": "exercicios.ex014",
+        "description": "exercicios.ex014",
+        "peekOfCode": "f = 9 * c / 5 + 32\nprint(f'A temperatura de {c}°C corresponde a {f}°F!.')",
+        "detail": "exercicios.ex014",
+        "documentation": {}
+    },
+    {
+        "label": "dias",
+        "kind": 5,
+        "importPath": "exercicios.ex015",
+        "description": "exercicios.ex015",
+        "peekOfCode": "dias = int(input('Quantos dias alugados? '))\nkm = int(input('Quantos km rodados? '))\npago = (dias * 60) + (km * 0.15)\nprint(f'Total a pagar é R${pago:.2f}')",
+        "detail": "exercicios.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "km",
+        "kind": 5,
+        "importPath": "exercicios.ex015",
+        "description": "exercicios.ex015",
+        "peekOfCode": "km = int(input('Quantos km rodados? '))\npago = (dias * 60) + (km * 0.15)\nprint(f'Total a pagar é R${pago:.2f}')",
+        "detail": "exercicios.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "pago",
+        "kind": 5,
+        "importPath": "exercicios.ex015",
+        "description": "exercicios.ex015",
+        "peekOfCode": "pago = (dias * 60) + (km * 0.15)\nprint(f'Total a pagar é R${pago:.2f}')",
+        "detail": "exercicios.ex015",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios.ex016",
+        "description": "exercicios.ex016",
+        "peekOfCode": "num = float(input('Digite um valor: '))\nprint(\n    f'O valor digitado foi {num} e a sua porção inteira é {trunc(num)}')",
+        "detail": "exercicios.ex016",
+        "documentation": {}
+    },
+    {
+        "label": "co",
+        "kind": 5,
+        "importPath": "exercicios.ex017",
+        "description": "exercicios.ex017",
+        "peekOfCode": "co = float(input('Comporimento de cateto oposto: '))\nca = float(input('Comporimento de cateto adjacente: '))\nhi = (co ** 2 + ca ** 2) ** 0.5\nhi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "exercicios.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "ca",
+        "kind": 5,
+        "importPath": "exercicios.ex017",
+        "description": "exercicios.ex017",
+        "peekOfCode": "ca = float(input('Comporimento de cateto adjacente: '))\nhi = (co ** 2 + ca ** 2) ** 0.5\nhi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "exercicios.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "hi",
+        "kind": 5,
+        "importPath": "exercicios.ex017",
+        "description": "exercicios.ex017",
+        "peekOfCode": "hi = (co ** 2 + ca ** 2) ** 0.5\nhi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "exercicios.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "hi_import",
+        "kind": 5,
+        "importPath": "exercicios.ex017",
+        "description": "exercicios.ex017",
+        "peekOfCode": "hi_import = hypot(co, ca)\nprint(f'A hipotenusa vai medir {hi:.2f}')\nprint(f'A hipotenusa vai medir {hi_import:.2f} importando biblioteca')",
+        "detail": "exercicios.ex017",
+        "documentation": {}
+    },
+    {
+        "label": "ângulo",
+        "kind": 5,
+        "importPath": "exercicios.ex018",
+        "description": "exercicios.ex018",
+        "peekOfCode": "ângulo = float(input('Digite o angulo que você deseja: '))\nseno = sin(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o seno de {seno:.2f}')\ncosseno = cos(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o cosseno de {cosseno:.2f}')\ntangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "exercicios.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "seno",
+        "kind": 5,
+        "importPath": "exercicios.ex018",
+        "description": "exercicios.ex018",
+        "peekOfCode": "seno = sin(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o seno de {seno:.2f}')\ncosseno = cos(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o cosseno de {cosseno:.2f}')\ntangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "exercicios.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "cosseno",
+        "kind": 5,
+        "importPath": "exercicios.ex018",
+        "description": "exercicios.ex018",
+        "peekOfCode": "cosseno = cos(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o cosseno de {cosseno:.2f}')\ntangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "exercicios.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "tangente",
+        "kind": 5,
+        "importPath": "exercicios.ex018",
+        "description": "exercicios.ex018",
+        "peekOfCode": "tangente = tan(radians(ângulo))\nprint(f'O ângulo de {ângulo} tem o tangente de {tangente:.2f}')",
+        "detail": "exercicios.ex018",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios.ex019",
+        "description": "exercicios.ex019",
+        "peekOfCode": "n1 = str(input('Primeiro aluno: '))\nn2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "exercicios.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios.ex019",
+        "description": "exercicios.ex019",
+        "peekOfCode": "n2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "exercicios.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "exercicios.ex019",
+        "description": "exercicios.ex019",
+        "peekOfCode": "n3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "exercicios.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "exercicios.ex019",
+        "description": "exercicios.ex019",
+        "peekOfCode": "n4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "exercicios.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "exercicios.ex019",
+        "description": "exercicios.ex019",
+        "peekOfCode": "lista = [n1, n2, n3, n4]\nescolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "exercicios.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "escolhido",
+        "kind": 5,
+        "importPath": "exercicios.ex019",
+        "description": "exercicios.ex019",
+        "peekOfCode": "escolhido = choice(lista)\nprint(f'O aluno escolhido foi {escolhido}')",
+        "detail": "exercicios.ex019",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "exercicios.ex020",
+        "description": "exercicios.ex020",
+        "peekOfCode": "n1 = str(input('Primeiro aluno: '))\nn2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "exercicios.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "exercicios.ex020",
+        "description": "exercicios.ex020",
+        "peekOfCode": "n2 = str(input('Segundo aluno: '))\nn3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "exercicios.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "exercicios.ex020",
+        "description": "exercicios.ex020",
+        "peekOfCode": "n3 = str(input('Terceiro aluno: '))\nn4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "exercicios.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "n4",
+        "kind": 5,
+        "importPath": "exercicios.ex020",
+        "description": "exercicios.ex020",
+        "peekOfCode": "n4 = str(input('Quarto aluno: '))\nlista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "exercicios.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "lista",
+        "kind": 5,
+        "importPath": "exercicios.ex020",
+        "description": "exercicios.ex020",
+        "peekOfCode": "lista = [n1, n2, n3, n4]\nshuffle(lista)\nprint('A ordem de apresentação será ')\nprint(lista)",
+        "detail": "exercicios.ex020",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "exercicios.ex022",
+        "description": "exercicios.ex022",
+        "peekOfCode": "name = str(input('Digite seu nome completo: ')).strip()\nprint('Analisando seu nome...')\nprint(f'Seu nome em maiúsculo é {name.upper()}')\nprint(f'Seu nome em minúsculo é {name.lower()}')\nprint(f'Seu nome em maiúsculo é {len(name) - name.count(\" \")} letras')\nprint(f'Seu primeiro nome tem {name.find(\" \")} letras')\nsepara = name.split()\nprint(f'Seu primeiro nome é {separa[0]} e tem {len(separa[0])} letras')",
+        "detail": "exercicios.ex022",
+        "documentation": {}
+    },
+    {
+        "label": "separa",
+        "kind": 5,
+        "importPath": "exercicios.ex022",
+        "description": "exercicios.ex022",
+        "peekOfCode": "separa = name.split()\nprint(f'Seu primeiro nome é {separa[0]} e tem {len(separa[0])} letras')",
+        "detail": "exercicios.ex022",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "exercicios.ex023",
+        "description": "exercicios.ex023",
+        "peekOfCode": "num = int(input('Informe um número: '))\nu = num // 1 % 10\nd = num // 10 % 10\nc = num // 100 % 10\nm = num // 1000 % 10\nprint(f'Analisando o número {num}')\nprint(f'Unidade: {u}')\nprint(f'Dezena: {d}')\nprint(f'Centena: {c}')\nprint(f'Milhar: {m}')",
+        "detail": "exercicios.ex023",
+        "documentation": {}
+    },
+    {
+        "label": "u",
+        "kind": 5,
+        "importPath": "exercicios.ex023",
+        "description": "exercicios.ex023",
+        "peekOfCode": "u = num // 1 % 10\nd = num // 10 % 10\nc = num // 100 % 10\nm = num // 1000 % 10\nprint(f'Analisando o número {num}')\nprint(f'Unidade: {u}')\nprint(f'Dezena: {d}')\nprint(f'Centena: {c}')\nprint(f'Milhar: {m}')",
+        "detail": "exercicios.ex023",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "exercicios.ex023",
+        "description": "exercicios.ex023",
+        "peekOfCode": "d = num // 10 % 10\nc = num // 100 % 10\nm = num // 1000 % 10\nprint(f'Analisando o número {num}')\nprint(f'Unidade: {u}')\nprint(f'Dezena: {d}')\nprint(f'Centena: {c}')\nprint(f'Milhar: {m}')",
+        "detail": "exercicios.ex023",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exercicios.ex023",
+        "description": "exercicios.ex023",
+        "peekOfCode": "c = num // 100 % 10\nm = num // 1000 % 10\nprint(f'Analisando o número {num}')\nprint(f'Unidade: {u}')\nprint(f'Dezena: {d}')\nprint(f'Centena: {c}')\nprint(f'Milhar: {m}')",
+        "detail": "exercicios.ex023",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "exercicios.ex023",
+        "description": "exercicios.ex023",
+        "peekOfCode": "m = num // 1000 % 10\nprint(f'Analisando o número {num}')\nprint(f'Unidade: {u}')\nprint(f'Dezena: {d}')\nprint(f'Centena: {c}')\nprint(f'Milhar: {m}')",
+        "detail": "exercicios.ex023",
+        "documentation": {}
+    },
+    {
+        "label": "cid",
+        "kind": 5,
+        "importPath": "exercicios.ex024",
+        "description": "exercicios.ex024",
+        "peekOfCode": "cid = str(input('Em que cidade você nasceu? ')).strip()\nprint(cid[:10].lower() == 'sao paulo')",
+        "detail": "exercicios.ex024",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "exercicios.ex025",
+        "description": "exercicios.ex025",
+        "peekOfCode": "name = str(input('Qual é seu nome completo? ')).strip()\nprint(f'Seu nome tem Borges? {\"borges\" in name.lower()}')",
+        "detail": "exercicios.ex025",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "exercicios.ex026",
+        "description": "exercicios.ex026",
+        "peekOfCode": "frase = str(input('Digite uma frase: ')).lower().strip()\nprint(f'A letra A aparece {frase.count(\"A\")} vezes na frase.')\nprint(f'A primeira letra A apareceu na posição {frase.find(\"A\")}.')",
+        "detail": "exercicios.ex026",
+        "documentation": {}
+    },
+    {
+        "label": "fullName",
+        "kind": 5,
+        "importPath": "exercicios.ex027",
+        "description": "exercicios.ex027",
+        "peekOfCode": "fullName = str(input('Digite seu nome completo: ')).strip()\nname = fullName.split()\nprint('Muito prazer em te conhecer!')\nprint(f'Seu primeiro nome é {name[0]}')\nprint(f'Seu último nome é {name[len(name)-1]}')",
+        "detail": "exercicios.ex027",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "exercicios.ex027",
+        "description": "exercicios.ex027",
+        "peekOfCode": "name = fullName.split()\nprint('Muito prazer em te conhecer!')\nprint(f'Seu primeiro nome é {name[0]}')\nprint(f'Seu último nome é {name[len(name)-1]}')",
+        "detail": "exercicios.ex027",
+        "documentation": {}
+    },
+    {
+        "label": "computer",
+        "kind": 5,
+        "importPath": "exercicios.ex028",
+        "description": "exercicios.ex028",
+        "peekOfCode": "computer = randint(0, 5)  # make the computer \"Think\"\nplayer = int(input(\"What number i thought? \"))\nprint('Processando...')\nsleep(3)\nif player == computer:\n    print(\n        f'Parabéns você conseguiu me vencer! eu pensei no {computer} e você no {player}')\nelse:\n    print(f'GANHEI! Eu pensei no número {player} e não no {computer}')",
+        "detail": "exercicios.ex028",
+        "documentation": {}
+    },
+    {
+        "label": "player",
+        "kind": 5,
+        "importPath": "exercicios.ex028",
+        "description": "exercicios.ex028",
+        "peekOfCode": "player = int(input(\"What number i thought? \"))\nprint('Processando...')\nsleep(3)\nif player == computer:\n    print(\n        f'Parabéns você conseguiu me vencer! eu pensei no {computer} e você no {player}')\nelse:\n    print(f'GANHEI! Eu pensei no número {player} e não no {computer}')",
+        "detail": "exercicios.ex028",
+        "documentation": {}
+    },
+    {
+        "label": "speed",
+        "kind": 5,
+        "importPath": "exercicios.ex029",
+        "description": "exercicios.ex029",
+        "peekOfCode": "speed = float(input('Qual é a velocidade atual do carro? '))\nif speed > 80:\n    print('MULTADO!, Você excedeu o limite permitido que é de 80km/h')\n    multa = (speed-80) * 7\n    print(f'Você deve pagar uma multa de R${multa:.2f}!')\nprint('Tenha um bom dia! Dirija com segurança!')",
+        "detail": "exercicios.ex029",
+        "documentation": {}
+    },
+    {
+        "label": "number",
+        "kind": 5,
+        "importPath": "exercicios.ex030",
+        "description": "exercicios.ex030",
+        "peekOfCode": "number = int(input('Tell me a number: '))\nresult = number % 2\nif result == 0:\n    print(f'O número {number} é PAR!')\nelse:\n    print(f'O número {number} é IMPAR')",
+        "detail": "exercicios.ex030",
+        "documentation": {}
+    },
+    {
+        "label": "result",
+        "kind": 5,
+        "importPath": "exercicios.ex030",
+        "description": "exercicios.ex030",
+        "peekOfCode": "result = number % 2\nif result == 0:\n    print(f'O número {number} é PAR!')\nelse:\n    print(f'O número {number} é IMPAR')",
+        "detail": "exercicios.ex030",
+        "documentation": {}
+    },
+    {
+        "label": "distância",
+        "kind": 5,
+        "importPath": "exercicios.ex031",
+        "description": "exercicios.ex031",
+        "peekOfCode": "distância = float(input('Qual é a distância de sua viagem? '))\nprint(f'Você está prestes a começar uma viagem de {distância}km.')\n# if distância <= 200:\n#     preço = distância * 0.50\n# else:\n#     preço = distância * 0.45\npreço = distância * 0.50 if distância <= 200 else distância * 0.45\nprint(f'E o preço da sua passagem será de R${preço:.2f}')",
+        "detail": "exercicios.ex031",
+        "documentation": {}
+    },
+    {
+        "label": "preço",
+        "kind": 5,
+        "importPath": "exercicios.ex031",
+        "description": "exercicios.ex031",
+        "peekOfCode": "preço = distância * 0.50 if distância <= 200 else distância * 0.45\nprint(f'E o preço da sua passagem será de R${preço:.2f}')",
+        "detail": "exercicios.ex031",
+        "documentation": {}
+    },
+    {
+        "label": "year",
+        "kind": 5,
+        "importPath": "exercicios.ex032",
+        "description": "exercicios.ex032",
+        "peekOfCode": "year = int(input('Que ano quer analisar? Ou coloque 0 para analisar o ano atual: '))\nif year == 0:\n    year = date.today().year\nif year % 4 == 0 and year % 100 != 0 or year % 400 == 0:\n    print(f'O ano {year} É bissexto')\nelse:\n    print(f'O ano {year} NÃO é bissexto')",
+        "detail": "exercicios.ex032",
+        "documentation": {}
+    },
+    {
+        "label": "a",
+        "kind": 5,
+        "importPath": "exercicios.ex033",
+        "description": "exercicios.ex033",
+        "peekOfCode": "a = int(input('First value: '))\nb = int(input('Second value: '))\nc = int(input('Third value: '))\nlower_value = a\nif b < a and b < c:\n    lower_value = b\nif c < a and c < b:\n    lower_value = c\nupper_value = a\nif b > a and b > c:",
+        "detail": "exercicios.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "b",
+        "kind": 5,
+        "importPath": "exercicios.ex033",
+        "description": "exercicios.ex033",
+        "peekOfCode": "b = int(input('Second value: '))\nc = int(input('Third value: '))\nlower_value = a\nif b < a and b < c:\n    lower_value = b\nif c < a and c < b:\n    lower_value = c\nupper_value = a\nif b > a and b > c:\n    upper_value = b",
+        "detail": "exercicios.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "c",
+        "kind": 5,
+        "importPath": "exercicios.ex033",
+        "description": "exercicios.ex033",
+        "peekOfCode": "c = int(input('Third value: '))\nlower_value = a\nif b < a and b < c:\n    lower_value = b\nif c < a and c < b:\n    lower_value = c\nupper_value = a\nif b > a and b > c:\n    upper_value = b\nif c > a and c > b:",
+        "detail": "exercicios.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "lower_value",
+        "kind": 5,
+        "importPath": "exercicios.ex033",
+        "description": "exercicios.ex033",
+        "peekOfCode": "lower_value = a\nif b < a and b < c:\n    lower_value = b\nif c < a and c < b:\n    lower_value = c\nupper_value = a\nif b > a and b > c:\n    upper_value = b\nif c > a and c > b:\n    upper_value = c",
+        "detail": "exercicios.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "upper_value",
+        "kind": 5,
+        "importPath": "exercicios.ex033",
+        "description": "exercicios.ex033",
+        "peekOfCode": "upper_value = a\nif b > a and b > c:\n    upper_value = b\nif c > a and c > b:\n    upper_value = c\nprint(f'O menor valor digitado foi {lower_value}')\nprint(f'O maior valor digitado foi {upper_value}')",
+        "detail": "exercicios.ex033",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "condicoes",
+        "description": "condicoes",
+        "peekOfCode": "name = str(input('Qual é seu nome? '))\nif name == 'Matheus':\n    print(f'Que nome lindo {name}')\nelse:\n    print(f'Seu nome é tão normal {name}')\nprint(f'Bom dia, {name}')\nn1 = float(input('Primeira nota do aluno: '))\nn2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nm = (n1 + n2 + n3) / 3",
+        "detail": "condicoes",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "condicoes",
+        "description": "condicoes",
+        "peekOfCode": "n1 = float(input('Primeira nota do aluno: '))\nn2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nm = (n1 + n2 + n3) / 3\nprint(\n    f'A média de nota é {m:.1f}')\n# if m >= 6.0:\n#     print('Sua média foi boa!')\n# else:\n#     print('Sua média foi ruim!')",
+        "detail": "condicoes",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "condicoes",
+        "description": "condicoes",
+        "peekOfCode": "n2 = float(input('Segunda nota do aluno: '))\nn3 = float(input('Terceira nota do aluno: '))\nm = (n1 + n2 + n3) / 3\nprint(\n    f'A média de nota é {m:.1f}')\n# if m >= 6.0:\n#     print('Sua média foi boa!')\n# else:\n#     print('Sua média foi ruim!')\nprint('Parabéns' if m >= 6.0 else 'ESTUDE MAIS')",
+        "detail": "condicoes",
+        "documentation": {}
+    },
+    {
+        "label": "n3",
+        "kind": 5,
+        "importPath": "condicoes",
+        "description": "condicoes",
+        "peekOfCode": "n3 = float(input('Terceira nota do aluno: '))\nm = (n1 + n2 + n3) / 3\nprint(\n    f'A média de nota é {m:.1f}')\n# if m >= 6.0:\n#     print('Sua média foi boa!')\n# else:\n#     print('Sua média foi ruim!')\nprint('Parabéns' if m >= 6.0 else 'ESTUDE MAIS')",
+        "detail": "condicoes",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "condicoes",
+        "description": "condicoes",
+        "peekOfCode": "m = (n1 + n2 + n3) / 3\nprint(\n    f'A média de nota é {m:.1f}')\n# if m >= 6.0:\n#     print('Sua média foi boa!')\n# else:\n#     print('Sua média foi ruim!')\nprint('Parabéns' if m >= 6.0 else 'ESTUDE MAIS')",
+        "detail": "condicoes",
+        "documentation": {}
+    },
+    {
+        "label": "N",
+        "kind": 5,
+        "importPath": "conversao_de_tempo",
+        "description": "conversao_de_tempo",
+        "peekOfCode": "N = int(input())\nhoras = N // 3600\nN %= 3600\nminutos = N // 60\nsegundos = N % 60\nprint(\"{}:{}:{}\".format(horas, minutos, segundos))",
+        "detail": "conversao_de_tempo",
+        "documentation": {}
+    },
+    {
+        "label": "horas",
+        "kind": 5,
+        "importPath": "conversao_de_tempo",
+        "description": "conversao_de_tempo",
+        "peekOfCode": "horas = N // 3600\nN %= 3600\nminutos = N // 60\nsegundos = N % 60\nprint(\"{}:{}:{}\".format(horas, minutos, segundos))",
+        "detail": "conversao_de_tempo",
+        "documentation": {}
+    },
+    {
+        "label": "minutos",
+        "kind": 5,
+        "importPath": "conversao_de_tempo",
+        "description": "conversao_de_tempo",
+        "peekOfCode": "minutos = N // 60\nsegundos = N % 60\nprint(\"{}:{}:{}\".format(horas, minutos, segundos))",
+        "detail": "conversao_de_tempo",
+        "documentation": {}
+    },
+    {
+        "label": "segundos",
+        "kind": 5,
+        "importPath": "conversao_de_tempo",
+        "description": "conversao_de_tempo",
+        "peekOfCode": "segundos = N % 60\nprint(\"{}:{}:{}\".format(horas, minutos, segundos))",
+        "detail": "conversao_de_tempo",
+        "documentation": {}
+    },
+    {
+        "label": "dia",
+        "kind": 5,
+        "importPath": "dia_mes_ano_formatado",
+        "description": "dia_mes_ano_formatado",
+        "peekOfCode": "dia = int(input('Qual dia você nasceu?'))\nmes = int(input('Qual mês você nasceu?'))\nano = int(input('Qual ano você nasceu?'))\nprint(f'você nasceu no dia {dia} do {mes} de {ano}')",
+        "detail": "dia_mes_ano_formatado",
+        "documentation": {}
+    },
+    {
+        "label": "mes",
+        "kind": 5,
+        "importPath": "dia_mes_ano_formatado",
+        "description": "dia_mes_ano_formatado",
+        "peekOfCode": "mes = int(input('Qual mês você nasceu?'))\nano = int(input('Qual ano você nasceu?'))\nprint(f'você nasceu no dia {dia} do {mes} de {ano}')",
+        "detail": "dia_mes_ano_formatado",
+        "documentation": {}
+    },
+    {
+        "label": "ano",
+        "kind": 5,
+        "importPath": "dia_mes_ano_formatado",
+        "description": "dia_mes_ano_formatado",
+        "peekOfCode": "ano = int(input('Qual ano você nasceu?'))\nprint(f'você nasceu no dia {dia} do {mes} de {ano}')",
+        "detail": "dia_mes_ano_formatado",
+        "documentation": {}
+    },
+    {
+        "label": "idade_dias",
+        "kind": 5,
+        "importPath": "idades_em_dias",
+        "description": "idades_em_dias",
+        "peekOfCode": "idade_dias = int(input())\nanos = idade_dias // 365\nidade_dias = idade_dias % 365\nmeses = idade_dias // 30\nidade_dias = idade_dias % 30\ndias = idade_dias\nprint(\"{} ano(s)\".format(anos))\nprint(\"{} mes(es)\".format(meses))\nprint(\"{} dia(s)\".format(dias))",
+        "detail": "idades_em_dias",
+        "documentation": {}
+    },
+    {
+        "label": "anos",
+        "kind": 5,
+        "importPath": "idades_em_dias",
+        "description": "idades_em_dias",
+        "peekOfCode": "anos = idade_dias // 365\nidade_dias = idade_dias % 365\nmeses = idade_dias // 30\nidade_dias = idade_dias % 30\ndias = idade_dias\nprint(\"{} ano(s)\".format(anos))\nprint(\"{} mes(es)\".format(meses))\nprint(\"{} dia(s)\".format(dias))",
+        "detail": "idades_em_dias",
+        "documentation": {}
+    },
+    {
+        "label": "idade_dias",
+        "kind": 5,
+        "importPath": "idades_em_dias",
+        "description": "idades_em_dias",
+        "peekOfCode": "idade_dias = idade_dias % 365\nmeses = idade_dias // 30\nidade_dias = idade_dias % 30\ndias = idade_dias\nprint(\"{} ano(s)\".format(anos))\nprint(\"{} mes(es)\".format(meses))\nprint(\"{} dia(s)\".format(dias))",
+        "detail": "idades_em_dias",
+        "documentation": {}
+    },
+    {
+        "label": "meses",
+        "kind": 5,
+        "importPath": "idades_em_dias",
+        "description": "idades_em_dias",
+        "peekOfCode": "meses = idade_dias // 30\nidade_dias = idade_dias % 30\ndias = idade_dias\nprint(\"{} ano(s)\".format(anos))\nprint(\"{} mes(es)\".format(meses))\nprint(\"{} dia(s)\".format(dias))",
+        "detail": "idades_em_dias",
+        "documentation": {}
+    },
+    {
+        "label": "idade_dias",
+        "kind": 5,
+        "importPath": "idades_em_dias",
+        "description": "idades_em_dias",
+        "peekOfCode": "idade_dias = idade_dias % 30\ndias = idade_dias\nprint(\"{} ano(s)\".format(anos))\nprint(\"{} mes(es)\".format(meses))\nprint(\"{} dia(s)\".format(dias))",
+        "detail": "idades_em_dias",
+        "documentation": {}
+    },
+    {
+        "label": "dias",
+        "kind": 5,
+        "importPath": "idades_em_dias",
+        "description": "idades_em_dias",
+        "peekOfCode": "dias = idade_dias\nprint(\"{} ano(s)\".format(anos))\nprint(\"{} mes(es)\".format(meses))\nprint(\"{} dia(s)\".format(dias))",
+        "detail": "idades_em_dias",
+        "documentation": {}
+    },
+    {
+        "label": "frase_longa",
+        "kind": 5,
+        "importPath": "manipulando_texto",
+        "description": "manipulando_texto",
+        "peekOfCode": "frase_longa = \"\"\"Lorem Ipsum is simply dummy text of the printing and typesetting industry. \nLorem Ipsum has been the industry's standard dummy text ever since the 1500s, \nwhen an unknown printer took a galley of type and scrambled it to make a type specimen book. \nIt has survived not only five centuries, but also the leap into electronic typesetting, \nremaining essentially unchanged. \nIt was popularised in the 1960s with the release of Letraset \nsheets containing Lorem Ipsum passages, \nand more recently with desktop publishing software \nlike Aldus PageMaker including versions of Lorem Ipsum.\"\"\"\nfrase = 'Curso em Video Python'",
+        "detail": "manipulando_texto",
+        "documentation": {}
+    },
+    {
+        "label": "frase",
+        "kind": 5,
+        "importPath": "manipulando_texto",
+        "description": "manipulando_texto",
+        "peekOfCode": "frase = 'Curso em Video Python'\ndividido = frase.split()\nprint(frase[3:13])\nprint(frase[:13])\nprint(frase[::2])\nprint(len(frase))\nprint(f'frase dividida ', dividido[2][3])\nprint(frase.replace('Python', 'Android'))",
+        "detail": "manipulando_texto",
+        "documentation": {}
+    },
+    {
+        "label": "dividido",
+        "kind": 5,
+        "importPath": "manipulando_texto",
+        "description": "manipulando_texto",
+        "peekOfCode": "dividido = frase.split()\nprint(frase[3:13])\nprint(frase[:13])\nprint(frase[::2])\nprint(len(frase))\nprint(f'frase dividida ', dividido[2][3])\nprint(frase.replace('Python', 'Android'))",
+        "detail": "manipulando_texto",
+        "documentation": {}
+    },
+    {
+        "label": "eh_primo",
+        "kind": 2,
+        "importPath": "numero_primo",
+        "description": "numero_primo",
+        "peekOfCode": "def eh_primo(num):\n    if num <= 1:\n        return False\n    for i in range(2, int(num**0.5)+1):\n        if num % i == 0:\n            return False\n    return True\nN = int(input())\nfor i in range(N):\n    X = int(input())",
+        "detail": "numero_primo",
+        "documentation": {}
+    },
+    {
+        "label": "N",
+        "kind": 5,
+        "importPath": "numero_primo",
+        "description": "numero_primo",
+        "peekOfCode": "N = int(input())\nfor i in range(N):\n    X = int(input())\n    if eh_primo(X):\n        print(\"{} eh primo\".format(X))\n    else:\n        print(\"{} nao eh primo\".format(X))",
+        "detail": "numero_primo",
+        "documentation": {}
+    },
+    {
+        "label": "name",
+        "kind": 5,
+        "importPath": "olamundo",
+        "description": "olamundo",
+        "peekOfCode": "name = input('qual seu nome?')\nprint(f'Olá {name} prazer em te conhecer!')",
+        "detail": "olamundo",
+        "documentation": {}
+    },
+    {
+        "label": "n1",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "n1 = int(input('Digite um número: '))\nn2 = int(input('Digite outro número: '))\ns = n1 + n2\nm = n1 * n2\nd = n1 / n2\ndi = n1 // n2\ne = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "n2",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "n2 = int(input('Digite outro número: '))\ns = n1 + n2\nm = n1 * n2\nd = n1 / n2\ndi = n1 // n2\ne = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "s = n1 + n2\nm = n1 * n2\nd = n1 / n2\ndi = n1 // n2\ne = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "m",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "m = n1 * n2\nd = n1 / n2\ndi = n1 // n2\ne = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "d",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "d = n1 / n2\ndi = n1 // n2\ne = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "di",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "di = n1 // n2\ne = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "e",
+        "kind": 5,
+        "importPath": "operadores_aritmeticos",
+        "description": "operadores_aritmeticos",
+        "peekOfCode": "e = n1 ** n2\nprint('A soma é {}, o produto é {} e a divisão é {}'.format(s, m, d), end=' ')\nprint('Divisão inteira é {} e potência é {}'.format(di, e))",
+        "detail": "operadores_aritmeticos",
+        "documentation": {}
+    },
+    {
+        "label": "A",
+        "kind": 5,
+        "importPath": "soma_simples",
+        "description": "soma_simples",
+        "peekOfCode": "A = int(input('Digite um número! '))\nB = int(input('Digite outro número! '))\nSOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "soma_simples",
+        "documentation": {}
+    },
+    {
+        "label": "B",
+        "kind": 5,
+        "importPath": "soma_simples",
+        "description": "soma_simples",
+        "peekOfCode": "B = int(input('Digite outro número! '))\nSOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "soma_simples",
+        "documentation": {}
+    },
+    {
+        "label": "SOMA",
+        "kind": 5,
+        "importPath": "soma_simples",
+        "description": "soma_simples",
+        "peekOfCode": "SOMA = A + B\nprint(f'SOMA = {SOMA}')",
+        "detail": "soma_simples",
+        "documentation": {}
+    },
+    {
+        "label": "print(f'SOMA",
+        "kind": 5,
+        "importPath": "soma_simples",
+        "description": "soma_simples",
+        "peekOfCode": "print(f'SOMA = {SOMA}')",
+        "detail": "soma_simples",
+        "documentation": {}
+    },
+    {
+        "label": "num",
+        "kind": 5,
+        "importPath": "utilizando_modulos",
+        "description": "utilizando_modulos",
+        "peekOfCode": "num = int(input('Digite um numero: '))\nraiz = math.sqrt(num)\nprint(f'A raiz de {num} é igual a {raiz:.2f}')\nnum1 = random.random()\nprint(num1)\nprint(emoji.emojize('Olá mundo :sunglasses:'))\nprint(emoji.emojize('Olá mundo :red_heart:'))\nprint(emoji.emojize('Olá mundo :globe_showing_Americas:'))",
+        "detail": "utilizando_modulos",
+        "documentation": {}
+    },
+    {
+        "label": "raiz",
+        "kind": 5,
+        "importPath": "utilizando_modulos",
+        "description": "utilizando_modulos",
+        "peekOfCode": "raiz = math.sqrt(num)\nprint(f'A raiz de {num} é igual a {raiz:.2f}')\nnum1 = random.random()\nprint(num1)\nprint(emoji.emojize('Olá mundo :sunglasses:'))\nprint(emoji.emojize('Olá mundo :red_heart:'))\nprint(emoji.emojize('Olá mundo :globe_showing_Americas:'))",
+        "detail": "utilizando_modulos",
+        "documentation": {}
+    },
+    {
+        "label": "num1",
+        "kind": 5,
+        "importPath": "utilizando_modulos",
+        "description": "utilizando_modulos",
+        "peekOfCode": "num1 = random.random()\nprint(num1)\nprint(emoji.emojize('Olá mundo :sunglasses:'))\nprint(emoji.emojize('Olá mundo :red_heart:'))\nprint(emoji.emojize('Olá mundo :globe_showing_Americas:'))",
+        "detail": "utilizando_modulos",
+        "documentation": {}
+    }
+]
